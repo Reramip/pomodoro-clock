@@ -1,0 +1,101 @@
+:root{
+  --width:400px;
+  --height:300px;
+  --background-color:#A9CCA9;
+  --control-background-color:#DEF2A7;
+  --time-left-background-color:#FAF5C5;
+  --color:#5F6678;
+}
+
+@font-face {
+  font-family: 'pointfree';
+  src: url("./assets/font/pointfree.pfb.ttf");
+}
+
+body{
+  background-color: var(--background-color);
+  font-family: pointfree;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 90vh;
+}
+
+button{
+  background-color: var(--control-background-color);
+  color: var(--color);
+  border: 0;
+  font-size: 1.2rem;
+}
+
+#pomodoro{
+  background-color: var(--control-background-color);
+  color: var(--color);
+  width:var(--width);
+  height:var(--height);
+  text-align: center;
+  font-size: 1.3rem;
+  font-weight: 600;
+}
+
+#session-break{
+  font-size: 1rem;
+  position: absolute;
+  top: calc(var(--height)/20);
+}
+
+#mute-unmute{
+  background-color: var(--time-left-background-color);
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+#time-left{
+  background-color: var(--time-left-background-color);
+  position: relative;
+  width:var(--width);
+  height:calc(var(--height)*2/3);
+  font-size: 4rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#label-div{
+  background-color: var(--control-background-color);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.option-div{
+  width:var(--width)*19/20;
+  height:calc(var(--height)/6);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 calc(var(--width)/20);
+}
+
+.increment-decrement{
+  width:calc(var(--width)/2);
+  display: flex;
+  justify-content: space-between;
+}
+
+#control-div{
+  background-color: var(--control-background-color);
+  width: var(--width);
+  height:calc(var(--height)/6);
+  display: flex;
+  justify-content: left;
+  align-items: center;
+}
+
+
+.control-button{
+  background-color: var(--control-background-color);
+  width: calc(var(--width)/8);
+  margin: 0 calc(var(--width)/20);
+}

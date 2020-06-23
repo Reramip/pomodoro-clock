@@ -1,0 +1,25 @@
+@font-face {font-family: "iconfont";
+  src: url('iconfont.eot?t=1592914579853'); /* IE9 */
+  src: url('iconfont.eot?t=1592914579853#iefix') format('embedded-opentype'), /* IE6-IE8 */
+  url('data:application/x-font-woff2;charset=utf-8;base64,d09GMgABAAAAAAOgAAsAAAAAB9gAAANRAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAHEIGVgCDBgqDPIMJATYCJAMMCwgABCAFhG0HPBvVBsgeo6fwGKEuLykYoUs8fI2193f37jBPktSzV0sMiSHhJVgieehMp1oldLrPp1c/CwVHzvlzVR7sYCabVfIm8+0Scgm17oQSrv5d9d82QMCi+v85ZroowL1R/rXNJSq5S0cFNh7QgKKaWngTOhC+YeyClridQIN+S5jWmzsHgVNh9gvEmaoIwJkxKw3ZoU6oVkwt4hbY1KVr83PcBL+Pf3M5SSqZOXT7oEkGtV95X5ZYNsY2mvQQQDKdE2wWGROAQuxVundZotAEiwZVbW1OripCmsobixGINW11o/94iagyM5vACAwnvvIcHsHXkrCE659FFTXcAZ4RtmtkVnqZnGwmJW0FszvlZYrbZB8wn19m2Y2hy/SI/Sz7lG07MnlgeJixND6+GUEjBzcd2J0yOAzJ+zamDg2S9+9JHxkSlMkHV7tEcBeUgojfl3r91caXS3yhGvfozabXg/vilodPb7yVsW9/6v6L6Vfzn1x04AL3I/EfL2d2KcnP/ralJR9OVrtnegk1PW42X4UOhApO/R9snR1Ym7M2caRbE6wVo2Mo8WMCHg0SR3HC88ShMbNgKPF5Ah4bHS0UfExEIO1mbrzg4UDyoWRCwNNEkZpvcz5MHFhcfIonrclZY2pmmxpJWvbg+HyRpNtHzx9/gJKU7jJ944LIycVDfPHcXIXtyyLfiOFIZUpdK0grL0sEs8wW+dj8C/J+8BeBYHY3W2fiK/852QI+M5L3AnPRXVt3b57gX0k6lhRNB2uKInbEhifbSiVJaNA0/lAudPg8XNvdOZNQpzuBpKYPsjoDyIKdgIpGC1BVZwkajGuZ3agTYRGlHmO2AQhtbkLS4h2yNi+QBfsJKnr8hqq2LNBgJ5KXbDSUyjQQJFAkQ3EVVCUtim0bZcLsfqQsCwskLQvIw4gYqhf63N58tAVFEZlihLFc8VOKISZaBDaD3VA4rEGdaEEkUXeAUr3c48FVd3JLWgQw1hCIgEJkkGgVSCXRRGGvNsUUvt8PUSwTJiANRVX+YQhhUBuHfNy8HZAt6minolu5xbCcwo+iMAgjNBFQM3AiYSukgfTqTkGIhHILDAjoynlQJdxV7V5eG3m/ddDA3ChHihxF7USNKqvUqNMIoNAEAAAAAA==') format('woff2'),
+  url('iconfont.woff?t=1592914579853') format('woff'),
+  url('iconfont.ttf?t=1592914579853') format('truetype'), /* chrome, firefox, opera, Safari, Android, iOS 4.2+ */
+  url('iconfont.svg?t=1592914579853#iconfont') format('svg'); /* iOS 4.1- */
+}
+
+.iconfont {
+  font-family: "iconfont" !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-jingyin:before {
+  content: "\e61e";
+}
+
+.icon-shengyin:before {
+  content: "\e62c";
+}
+
